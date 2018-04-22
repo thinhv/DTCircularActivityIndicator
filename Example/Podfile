@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DTCircularActivityIndicator_Example' do
+  pod 'DTCircularActivityIndicator', :path => '../'
+
+  target 'DTCircularActivityIndicator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
