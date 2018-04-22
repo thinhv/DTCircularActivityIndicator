@@ -2,11 +2,11 @@
 //  DTViewController.h
 //  DTCircularActivityIndicator
 //
-//  Created by thinhv@metropolia.fi on 04/23/2018.
-//  Copyright (c) 2018 thinhv@metropolia.fi. All rights reserved.
+// Created by Thinh Vo on 23/04/2018.
 //
 
 @import UIKit;
+
 
 @interface DTViewController : UIViewController
 

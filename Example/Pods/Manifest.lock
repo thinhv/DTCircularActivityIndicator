@@ -1,0 +1,16 @@
+PODS:
+  - DTCircularActivityIndicator (0.1.0)
+
+DEPENDENCIES:
+  - DTCircularActivityIndicator (from `../`)
+
+EXTERNAL SOURCES:
+  DTCircularActivityIndicator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DTCircularActivityIndicator: aca46b220f2190bdf5494636555014b6089cc711
+
+PODFILE CHECKSUM: 05ad482701aa99c7cdb4e107db9750a8368ee05d
+
+COCOAPODS: 1.4.0

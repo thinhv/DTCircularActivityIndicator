@@ -1,0 +1,6 @@
+framework module DTCircularActivityIndicator {
+  umbrella header "DTCircularActivityIndicator-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D71FC87045BA24104DA9A29 /* Pods_DTCircularActivityIndicator_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31CE6AA95066F0FD1EDA330B /* Pods_DTCircularActivityIndicator_Tests.framework */; };
+		2598C10D208D4504009A8572 /* DTCircularActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2598C10C208D4504009A8572 /* DTCircularActivityIndicator.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,12 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15CF26DCE591ADD24B1802CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		15CF26DCE591ADD24B1802CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2598C10C208D4504009A8572 /* DTCircularActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DTCircularActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31CE6AA95066F0FD1EDA330B /* Pods_DTCircularActivityIndicator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTCircularActivityIndicator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4889C7E1023392AC294C6DAA /* Pods-DTCircularActivityIndicator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTCircularActivityIndicator_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTCircularActivityIndicator_Example/Pods-DTCircularActivityIndicator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4E2DD9EB8DC3A3386533DEE3 /* Pods-DTCircularActivityIndicator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTCircularActivityIndicator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTCircularActivityIndicator_Tests/Pods-DTCircularActivityIndicator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5306F3134A673AC3C620E646 /* Pods-DTCircularActivityIndicator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTCircularActivityIndicator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTCircularActivityIndicator_Tests/Pods-DTCircularActivityIndicator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5A18910B13ABF94A85ED54FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5A18910B13ABF94A85ED54FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DTCircularActivityIndicator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTCircularActivityIndicator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +67,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D913E5A106006503DC3A6F9 /* Pods_DTCircularActivityIndicator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTCircularActivityIndicator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4083FD57D2E822B8C624EE3 /* DTCircularActivityIndicator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DTCircularActivityIndicator.podspec; path = ../DTCircularActivityIndicator.podspec; sourceTree = "<group>"; };
+		B4083FD57D2E822B8C624EE3 /* DTCircularActivityIndicator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DTCircularActivityIndicator.podspec; path = ../DTCircularActivityIndicator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E3DDC79A1022688FB2899C5B /* Pods-DTCircularActivityIndicator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTCircularActivityIndicator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTCircularActivityIndicator_Example/Pods-DTCircularActivityIndicator_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2598C10D208D4504009A8572 /* DTCircularActivityIndicator.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -130,6 +133,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2598C10C208D4504009A8572 /* DTCircularActivityIndicator.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
