@@ -27,7 +27,7 @@
     [super viewWillLayoutSubviews];
     
     CGSize screenSize = UIScreen.mainScreen.bounds.size;
-    CGSize activityIndicatorSize = CGSizeMake(50, 50);
+    CGSize activityIndicatorSize = CGSizeMake(120, 120);
     
     CGFloat indicatorX = (screenSize.width - activityIndicatorSize.width) / 2;
     CGFloat indicatorY = (screenSize.height - activityIndicatorSize.height) / 2;
@@ -48,6 +48,8 @@
 {
     if (!_activityIndicator) {
         _activityIndicator = [[DTCircularActivityIndicator alloc] initWithFrame:CGRectZero];
+        _activityIndicator.spinDuration = 5.0;
+        _activityIndicator.lineWidth = 8.0;
     }
     
     return _activityIndicator;
