@@ -5,11 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/DTCircularActivityIndicator.svg?style=flat)](http://cocoapods.org/pods/DTCircularActivityIndicator)
 [![Platform](https://img.shields.io/cocoapods/p/DTCircularActivityIndicator.svg?style=flat)](http://cocoapods.org/pods/DTCircularActivityIndicator)
 
+![](demo.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -20,9 +20,17 @@ it, simply add the following line to your Podfile:
 pod 'DTCircularActivityIndicator'
 ```
 
+## Usage
+You can easily customize the animation with the following self-descriptive properties:
+
+- `lineWidth`: This property controls the width of the circular stroke path
+- `strokeStartDuration`: Duration for stroke start animation
+- `strokeEndDuration`: Duration for stroke end animation
+- `spinDuration`: Rotating duration for 2pi
+
 ## Author
 
-thinhv@metropolia.fi, ducthinh2410@gmail.com
+ducthinh2410@gmail.com
 
 ## License
 
