@@ -119,6 +119,7 @@ static NSString *const kStrokeColorAnimationKey = @"StrokeColorAnimationKey";
 - (void)setLineWidth:(CGFloat)lineWidth
 {
     _lineWidth = lineWidth;
+    _shapeLayer.lineWidth = lineWidth;
     [self updateShapeLayerPath];
 }
 
@@ -156,7 +157,7 @@ static NSString *const kStrokeColorAnimationKey = @"StrokeColorAnimationKey";
     rotationAnimation.fromValue = @0.0;
     rotationAnimation.toValue = @(M_PI * 2);
     rotationAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
-    rotationAnimation.duration = 10.0;
+    rotationAnimation.duration = self.spinDuration;
     rotationAnimation.beginTime = CACurrentMediaTime();
     rotationAnimation.fillMode = kCAFillModeBoth;
     rotationAnimation.repeatCount = CGFLOAT_MAX;
